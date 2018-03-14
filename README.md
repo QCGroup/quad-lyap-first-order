@@ -6,7 +6,9 @@ This code can be used to analyze the worst-case linear convergence rate of first
 
 ## Getting Started
 
-To run the code, simply download the .m files and add the folder to the path in Matlab.
+To run the code, simply download the [code](/code) folder and add it to the path in Matlab.
+
+For convenience, the data files produced by `main.m` are contained in the [data](/data) folder 
 
 **Note:** This code requires [YALMIP](https://yalmip.github.io/) along with a suitable SDP solver (e.g., Sedumi, SDPT3, Mosek).
 
