@@ -50,5 +50,5 @@ FixedStepMethod(mu,L);
 ## Authors
 
 - [**Adrien Taylor**](http://www.di.ens.fr/~ataylor/)
-- [**Bryan Van Scoy**](vanscoy@wisc.edu)
+- **Bryan Van Scoy**
 - [**Laurent Lessard**](http://www.laurentlessard.com/)
