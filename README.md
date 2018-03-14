@@ -8,18 +8,18 @@ This code can be used to analyze the worst-case linear convergence rate of first
 
 To run the code, simply download the [code](/code) folder and add it to the path in Matlab.
 
-For convenience, the data files produced by `main.m` are contained in the [data](/data) folder. 
+For convenience, the data files produced by `main.m` are contained in the [data](/data) folder.
 
 **Note:** This code requires [YALMIP](https://yalmip.github.io/) along with a suitable SDP solver (e.g., Sedumi, SDPT3, Mosek).
 
 
 ## List of files
 
-- [`main.m`](main.m) generates all the figures in [1] and illustrates how to use each function below.
-- [`FixedStepMethod.m`](FixedStepMethod.m) calculates the worst-case linear convergence rate of a fixed-step method applied to a smooth strongly convex function.
-- [`SteepestDescent.m`](SteepestDescent.m) analyzes the steepest descent method using an exact line search.
-- [`HeavyBallSubspaceSearch.m`](HeavyBallSubspaceSearch.m) analyzes the heavy-ball method using an exact 2-dimensional subspace search at each iteration.
-- [`RestartedFGM.m`](FixedStepMethod.m) analyzes the standard fast gradient method in (Nesterov, 1983) where the iterations are restarted every N iterations.
+- [`main.m`](code/main.m) generates all the figures in [1] and illustrates how to use each function below.
+- [`FixedStepMethod.m`](code/FixedStepMethod.m) calculates the worst-case linear convergence rate of a fixed-step method applied to a smooth strongly convex function.
+- [`SteepestDescent.m`](code/SteepestDescent.m) analyzes the steepest descent method using an exact line search.
+- [`HeavyBallSubspaceSearch.m`](code/HeavyBallSubspaceSearch.m) analyzes the heavy-ball method using an exact 2-dimensional subspace search at each iteration.
+- [`RestartedFGM.m`](code/FixedStepMethod.m) analyzes the standard fast gradient method in (Nesterov, 1983) where the iterations are restarted every N iterations.
 
 
 ## Example
