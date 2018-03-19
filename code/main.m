@@ -3,7 +3,7 @@
 % This file produces the data for all figures in the paper:
 % 
 % A. Taylor, B. Van Scoy, L. Lessard, "Lyapunov Functions for First-Order
-%  Methods: Tight Automated Convergence Guarantees," arXiv:####.####, 2018.
+%  Methods: Tight Automated Convergence Guarantees," arXiv:1803.06073, 2018.
 % 
 % This code requires YALMIP (tested on version 20171121).
 
