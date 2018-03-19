@@ -2,7 +2,7 @@
 
 This code can be used to analyze the worst-case linear convergence rate of first-order optimization algorithms applied to smooth strongly convex functions as described in the paper:
 
-> [1] A. Taylor, B. Van Scoy, L. Lessard, "Lyapunov Functions for First-Order Methods: Tight Automated Convergence Guarantees," arXiv:####.####, 2018.
+> [1] A. Taylor, B. Van Scoy, L. Lessard, "Lyapunov Functions for First-Order Methods: Tight Automated Convergence Guarantees," arXiv:1803.06073, 2018.
 
 ## Getting Started
 
